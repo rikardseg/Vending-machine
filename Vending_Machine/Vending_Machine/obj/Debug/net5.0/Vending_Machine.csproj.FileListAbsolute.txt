@@ -1,0 +1,16 @@
+C:\Users\rikar\RiderProjects\Vending_Machine\Vending_Machine\bin\Debug\net5.0\Vending_Machine.exe
+C:\Users\rikar\RiderProjects\Vending_Machine\Vending_Machine\bin\Debug\net5.0\Vending_Machine.deps.json
+C:\Users\rikar\RiderProjects\Vending_Machine\Vending_Machine\bin\Debug\net5.0\Vending_Machine.runtimeconfig.json
+C:\Users\rikar\RiderProjects\Vending_Machine\Vending_Machine\bin\Debug\net5.0\Vending_Machine.runtimeconfig.dev.json
+C:\Users\rikar\RiderProjects\Vending_Machine\Vending_Machine\bin\Debug\net5.0\Vending_Machine.dll
+C:\Users\rikar\RiderProjects\Vending_Machine\Vending_Machine\bin\Debug\net5.0\ref\Vending_Machine.dll
+C:\Users\rikar\RiderProjects\Vending_Machine\Vending_Machine\bin\Debug\net5.0\Vending_Machine.pdb
+C:\Users\rikar\RiderProjects\Vending_Machine\Vending_Machine\obj\Debug\net5.0\Vending_Machine.csprojAssemblyReference.cache
+C:\Users\rikar\RiderProjects\Vending_Machine\Vending_Machine\obj\Debug\net5.0\Vending_Machine.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\rikar\RiderProjects\Vending_Machine\Vending_Machine\obj\Debug\net5.0\Vending_Machine.AssemblyInfoInputs.cache
+C:\Users\rikar\RiderProjects\Vending_Machine\Vending_Machine\obj\Debug\net5.0\Vending_Machine.AssemblyInfo.cs
+C:\Users\rikar\RiderProjects\Vending_Machine\Vending_Machine\obj\Debug\net5.0\Vending_Machine.csproj.CoreCompileInputs.cache
+C:\Users\rikar\RiderProjects\Vending_Machine\Vending_Machine\obj\Debug\net5.0\Vending_Machine.dll
+C:\Users\rikar\RiderProjects\Vending_Machine\Vending_Machine\obj\Debug\net5.0\ref\Vending_Machine.dll
+C:\Users\rikar\RiderProjects\Vending_Machine\Vending_Machine\obj\Debug\net5.0\Vending_Machine.pdb
+C:\Users\rikar\RiderProjects\Vending_Machine\Vending_Machine\obj\Debug\net5.0\Vending_Machine.genruntimeconfig.cache
