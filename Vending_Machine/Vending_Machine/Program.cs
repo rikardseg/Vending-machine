@@ -10,7 +10,6 @@ namespace Vending_Machine
         {
             var choice = "";
             string userName ="", password ="";
-            bool loginOK = false;
             var message = new MessageToUser();
             var inventory = new Inventory();
             var user = new User();
@@ -21,18 +20,9 @@ namespace Vending_Machine
             inventory.CreateArticles();
             bank.CreateAccounts();
             
-            // Log in of user; Request userName and password
-            while (loginOK == false)
-            {
-                ClearConsole();
-                Console.Write("Type your Username: ? ");
-                userName = Console.ReadLine();
-                Console.Write("Type your Password: ? ");
-                password = Console.ReadLine();
-                // If userName and password is OK then break this while loop, otherwise continue to ask
-                loginOK = user.ValidateUser(userName, password);
-            }
-            
+            //Login
+            LoginUser(ref userName, ref password);
+
             // Write main menu and wait for input
             while (choice == "")
             {
@@ -44,7 +34,8 @@ namespace Vending_Machine
                 Console.WriteLine("B - Bank");
                 Console.WriteLine("C - Inventory");
                 Console.WriteLine("D - User handling");
-                Console.WriteLine("E - Exit");
+                Console.WriteLine("E - Change user");
+                Console.WriteLine("F - Exit");
                 Console.WriteLine("\nWhat do you want to do?");
                 Console.Write("Select A, B, C, D or E: ");
 
@@ -71,6 +62,9 @@ namespace Vending_Machine
                             message.Write("You do not have access to this function.");
                         break;
                     case "E":
+                        LoginUser(ref userName, ref password);
+                        break;
+                    case "F":
                         ClearConsole();
                         message.Write("Thanks for shopping at Rikard's Vending Machine!\nSee you soon and Welcome back!");
                         Environment.Exit(0);
@@ -341,6 +335,23 @@ namespace Vending_Machine
             ConsoleColor foreColor = Console.ForegroundColor;
             ConsoleColor backColor = Console.BackgroundColor;
             Console.Clear();
+        }
+        // Log in of user; Request userName and password
+        private static void LoginUser(ref string userName, ref string password)
+        {
+            bool loginOK = false;
+            var user = new User();
+            
+            while (loginOK == false)
+            {
+                ClearConsole();
+                Console.Write("Type your Username: ? ");
+                userName = Console.ReadLine();
+                Console.Write("Type your Password: ? ");
+                password = Console.ReadLine();
+                // If userName and password is OK then break this while loop, otherwise continue to ask
+                loginOK = user.ValidateUser(userName, password);
+            }
         }
     }
 }

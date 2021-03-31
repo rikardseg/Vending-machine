@@ -14,10 +14,10 @@
     <changedPaths>
       <option value="$PROJECT_DIR$/Vending_Machine/MessageToUser.cs" />
       <option value="$PROJECT_DIR$/Vending_Machine/Shop.cs" />
-      <option value="$PROJECT_DIR$/Vending_Machine/User.cs" />
       <option value="$PROJECT_DIR$/Vending_Machine/Bank.cs" />
-      <option value="$PROJECT_DIR$/Vending_Machine/Program.cs" />
       <option value="$PROJECT_DIR$/Vending_Machine/Inventory.cs" />
+      <option value="$PROJECT_DIR$/Vending_Machine/User.cs" />
+      <option value="$PROJECT_DIR$/Vending_Machine/Program.cs" />
     </changedPaths>
   </component>
   <component name="ProjectId" id="1qAST4fmESpOckh6tQmfiFmHh70" />
@@ -62,11 +62,16 @@
       <workItem from="1616520915366" duration="4498000" />
       <workItem from="1616696438397" duration="6048000" />
       <workItem from="1616851171984" duration="4044000" />
-      <workItem from="1617122747818" duration="2690000" />
+      <workItem from="1617122747818" duration="3453000" />
+      <workItem from="1617212675339" duration="1428000" />
     </task>
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
   </component>
 </project>
